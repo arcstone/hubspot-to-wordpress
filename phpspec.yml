@@ -1,0 +1,6 @@
+suites:
+    h2w_suite:
+        src_path: app
+        spec_path: tests
+        namespace: H2W
+        psr4_prefix: H2W

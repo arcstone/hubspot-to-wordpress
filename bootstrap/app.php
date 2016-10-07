@@ -78,7 +78,7 @@ $app->singleton(
 |
 */
 
-// $app->register(H2W\Providers\AppServiceProvider::class);
+$app->register(H2W\Providers\AppServiceProvider::class);
 // $app->register(H2W\Providers\AuthServiceProvider::class);
 // $app->register(H2W\Providers\EventServiceProvider::class);
 
@@ -93,8 +93,8 @@ $app->singleton(
 |
 */
 
-$app->group(['namespace' => 'H2W\Http\Controllers'], function ($app) {
-    require __DIR__.'/../app/Http/routes.php';
-});
+// $app->group(['namespace' => 'H2W\Http\Controllers'], function ($app) {
+//     require __DIR__.'/../app/Http/routes.php';
+// });
 
 return $app;
