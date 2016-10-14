@@ -23,7 +23,7 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
-// $app->withFacades();
+$app->withFacades();
 
 // $app->withEloquent();
 
@@ -79,6 +79,7 @@ $app->singleton(
 */
 
 $app->register(H2W\Providers\AppServiceProvider::class);
+$app->register(H2W\Providers\WordPressServiceProvider::class);
 // $app->register(H2W\Providers\AuthServiceProvider::class);
 // $app->register(H2W\Providers\EventServiceProvider::class);
 

@@ -11,3 +11,5 @@ bootstrap/cache/
 /.idea
 Homestead.json
 Homestead.yaml
+Vagrantfile
+.vagrant

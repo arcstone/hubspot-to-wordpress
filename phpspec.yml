@@ -4,3 +4,6 @@ suites:
         spec_path: tests
         namespace: H2W
         psr4_prefix: H2W
+#extensions:
+#  PhpSpec\Laravel\Extension\LaravelExtension: ~
+bootstrap: bootstrap/app.php

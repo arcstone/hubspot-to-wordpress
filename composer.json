@@ -12,15 +12,19 @@
         "vluzrmos/tinker": "^1.1"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.4",
+        "fzaninotto/faker": "dev-master",
         "phpunit/phpunit": "~5.0",
         "mockery/mockery": "~0.9",
-        "phpspec/phpspec": "^3.0"
+        "phpspec/phpspec": "^3.0",
+        "laravel/homestead": "^3.0"
     },
     "autoload": {
         "psr-4": {
             "H2W\\": "app/"
-        }
+        },
+        "files": [
+            "app/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-0": {
