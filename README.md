@@ -15,11 +15,13 @@ posts, including downloading all linked images. YMMV.
 PHP 7 is required to run the script, as well as the Tidy and XML Extensions.
 
 The following WordPress plugins must be installed prior to running this script:
-1. WP-API 2.x http://v2.wp-api.org/
+
+* WP-API 2.x http://v2.wp-api.org/
 
 In order to support the meta_description field, you can optionally also install:
-1. Yoast SEO https://yoast.com/
-1. REST API SEO Fields https://calderawp.com/
+
+* Yoast SEO https://yoast.com/
+* REST API SEO Fields https://calderawp.com/
 
 Also note, in order to handle automated image uploads, I had to add this to my 
 wp-config.php file:
